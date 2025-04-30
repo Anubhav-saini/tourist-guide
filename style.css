@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+  }
+  
+  header {
+    background: #2b2b2b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .hero-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .place-card {
+    background: white;
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .place-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .contact-form form {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #2b2b2b;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
